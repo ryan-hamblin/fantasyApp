@@ -4,5 +4,5 @@ app.controller('myCtrl', function($scope){
 
 	$scope.test = "Fantasy Football Finder";
 
-	
-});
+
+})
