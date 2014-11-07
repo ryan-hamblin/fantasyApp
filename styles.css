@@ -4,3 +4,27 @@ html, body {
 	margin: 0, 0;
 	background: #4679BD;
 }
+.main-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.box1 {
+	height: 50px;
+	width: 50px;
+	border-radius: 5px;
+	background: #fff;
+}
+.box2 {
+	height: 50px;
+	width: 50px;
+	border-radius: 5px;
+	background: #666;
+}
+.box3 {
+	height: 50px;
+	width: 50px;
+	border-radius: 5px;
+	background: #ccc;
+}
+
