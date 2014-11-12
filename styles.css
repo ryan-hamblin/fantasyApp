@@ -4,7 +4,7 @@ html, body {
 	margin: 0, 0;
 	background: #4679BD;
 }
-.main-container{
+/*.main-container{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -27,4 +27,4 @@ html, body {
 	border-radius: 5px;
 	background: #ccc;
 }
-
+*/
