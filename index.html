@@ -10,6 +10,9 @@
 				</header>
 				<body>
 					<div class="main-container">
+						<div ng-repeat='player in players'>
+							{{player.player_name}}
+						</div>
 						<div class="input-bar">
 							<input ng-model="textarea" type="Find Player">Input Player Name Here</input>
 						</div>
