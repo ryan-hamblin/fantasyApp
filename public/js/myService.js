@@ -8,8 +8,12 @@ app.factory('myService', function($http){
 
 	factoryReturn.getPlayers = function() {
 		return $http.jsonp(kimonoApiUrl).then(function(response){
-			return response.data
+			return response.data.results.collection1
 		})   
 	}
 		return factoryReturn;
+
+	var playerReturn = {};
+
+	var kimonoPlayerUrl = "";
 });

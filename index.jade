@@ -1,0 +1,19 @@
+html(ng-app="fantasyApp")
+ head
+  link(rel="stylesheet" type="text/css" href="styles.css")
+  title Fantasy App
+   header(ng-controller="myCtrl")
+    h1 {{test}}
+    hr
+   body
+    span.main-container
+     div(ng-repeat='player in players')
+      ul
+       li {{player.player_name}}
+    span.input-bar
+     input(ng-model='textarea' type='Find Player')
+      button(ng-click='getPlayers()') Search
+    script(type='text/javascript' src='app.min.js')
+    script(type='text/javascript' src='public/js/app.js')
+    script(type='text/javascript' src='public/js/myCtrl.js')
+    script(type='text/javascript' src='public/js/myService.js')
